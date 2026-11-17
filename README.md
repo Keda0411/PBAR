@@ -4,6 +4,8 @@ PELA，N网近来最火的模组，私以为它跟CNS有着同等价值，虽然
 
 具体而言，你可以把它当做是游戏内的色情动画播放器，虽然有着类似功能的ATOOL模组早已存在（实际上PELA也依赖于ATOOL），但更简便的操作方式以及跟游戏玩法的结合使得PELA具备更高的上限
 
+**本项目是基于PELA的批量音频替换工具，详情可见：https://www.nexusmods.com/stellarblade/mods/4156**
+
 ## 模组简介
 
 首先，**使用PELA播放的所有动画都是可编辑的**，你可以通过改动json文件来决定哪几个动作拼接在一起形成动画、每个动作循环几次、以及在哪个动作/什么时间点伊芙会高潮
@@ -12,7 +14,7 @@ PELA，N网近来最火的模组，私以为它跟CNS有着同等价值，虽然
 
 其次，**PELA扩展了游戏玩法，引入了欲望值的概念**，把剑星变成了真正的成人游戏，欲望值常态随时间累积，攒满之后会移动受限且持续扣血，按F5播放动画期间会消耗欲望值并恢复beta能量，如果高潮还能回血
 
-**PELA还提供了一颗新的技能树**，都是跟欲望值相关的技能，你消耗的欲望值越多，你获得的经验值越多，累积经验可以获得技能加点，不过目前只解锁了两个技能且没有后续升级，期待作者后续更新
+**PELA还提供了一颗新的技能树**，都是跟欲望值相关的技能，你消耗的欲望值越多，你获得的经验值越多，累积经验可以获得技能加点
 
 ## 如何安装
 
@@ -32,7 +34,11 @@ PELA，N网近来最火的模组，私以为它跟CNS有着同等价值，虽然
 
 阅读PELA的描述页面中关于按键绑定的部分，支持手柄
 
-如果你想改动触发动画的按键，请编辑SB\Binaries\Win64\ue4ss\Mods\LustyAndroid\Scripts\la_config.lua，具体位置在227行和239行，我暂时不知道在哪里修改技能的绑定按键
+如果你想更改动画的按键绑定，请编辑SB\Binaries\Win64\ue4ss\Mods\LustyAndroid\Scripts\la_config.lua，具体位置在第227、239行
+
+如果你想更改抓取的按键绑定，请编辑SB\Binaries\Win64\ue4ss\Mods\LAGrapple\Scripts\lagrapple_config.lua，具体位置在第7行
+
+如果你想更改技能的按键绑定，请编辑SB\Binaries\Win64\ue4ss\Mods\LustyAndroid\LA_Skills\LA Skills config.lua，具体位置在第144、412行
 
 json文件可以在SB\Content\Paks\~mods\PELA Patches找到，阅读PELA的描述页面中关于PELA Patch Maker的部分，你会知道如何使用这些json文件来编辑动画
 
